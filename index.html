@@ -190,6 +190,26 @@
            </section>
  </div>
 </footer>
-
+<div class="feedback">
+        <form action="#" method="post">
+            <div class="feedback-user">
+                <div class="feedback-left-column">
+                    <label class="feedback-data" for="feedback-login">Ваше имя:</label>
+                    <input type="text" name="login" id="feedback-login" placeholder="Представьтесь, пожалуйста" required>
+                </div>
+                <div class="feedback-right-column">
+                    <label class="feedback-data" for="feedback-email">Ваш e-mail:</label>
+                    <input type="email" name="email" id="feedback-email" placeholder="Для отправки ответа" required>
+                </div>
+            </div>
+            <label class="feedback-data" >
+            <p class="feedback-data-text">Текст письма:</p>
+            <textarea name="text"  placeholder="В свободной форме" required rows="5"></textarea>
+            </label>
+            <div class="feedback-block">
+                <button type="submit" class="btn feedback-btn">Отправить</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

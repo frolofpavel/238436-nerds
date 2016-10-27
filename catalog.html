@@ -37,19 +37,177 @@
       <h1 class="catalog-title">Магазин готовых шаблонов</h1>
 </div>
 <!--main-form-->
-<form class="" action="index.html" method="post">
+<form class="main-filter" method="get" action="#">
+
+                      <h2 class="filter-title">Стоимость:</h2>
+<div class="filter-blok">
+  <fieldset class="filter-price">
+    <div class="filter-polzunok">
+                 <label>
+                         <input type="range" min="0" max="15000" step="1000" value="7500">
+                 </label>
+
+                 </label>
+    </div>
+    <div class="filter-price-control">
+                  <div class="filter-price-left">
+                           <span class="filter-price-from">от</span>
+                           <input class="filter-price-min" type="text" value="0">
+                  </div>
+                  <div class="filter-price-right">
+                           <span class="filter-price-till">до</span>
+                           <input class="filter-price-max" type="text" value="15 000">
+                  </div>
+    </div>
+
+   </fieldset>
+</div>
+
+                           <fieldset class="mail-group">
+                                <legend class="mail-setka">Сетка:</legend>
+
+                              <label for="group">
+                              <input type="radio" name="group" value="adaptiv" checked>
+                                 <span >Адаптивная</span>
+                              </label>
+
+                              <label for="group">
+                              <input type="radio" name="group" value="fiks">
+                                 <span>Фиксированная</span>
+                              </label>
+
+                              <label for="group">
+                                  <input type="radio" name="group" value="Rubber">
+                                     <span>Резиновая</span>
+                              </label>
+
+                          </fieldset>
+
+<div class="filter-checkbox">
+    <ul class="filter-advantages">
+        <li>
+         <label>
+                <input type="checkbox" value="slider" checked>
+                  <span class="one-brand-submit">Слайдер</span>
+         </label>
+        </li>
+
+        <li>
+          <label>
+                <input type="checkbox" value="advantages">
+                  <span class="one-brand-submit">Блок преимущества</span>
+          </label>
+        </li>
+
+        <li>
+          <label>
+                <input type="checkbox" value="news" checked>
+                  <span class="one-brand-submit">Новости</span>
+          </label>
+        </li>
+
+        <li>
+          <label>
+                <input type="checkbox" value="passage">
+              <span class="one-brand-submit">Галерея</span>
+          </label>
+        </li>
+
+        <li>
+          <label>
+                <input type="checkbox" value="basket">
+                  <span class="one-brand-submit">Корзина</span>
+          </label>
+        </li>
+   </ul>
+</div>
+
+<input type="submit" name="name" value="Показать">
 
 </form>
+<div class="main-catalog">
+           <div class="catalog-sort">
+               <span class="catalog-sort-title clearfix">Сортировать:</span>
+               <a href="#" class="catalog-sort-option">По цене</a>
+               <a href="#" class="catalog-sort-option">По типу</a>
+               <a href="#" class="catalog-sort-option">По функционалу</a>
+               <div class="catalog-arrow-block">
+                   <a href="#" class="catalog-arrow-down catalog-arrow-active"></a>
+                   <a href="#" class="catalog-arrow-up"></a>
+               </div>
+           </div>
 
+           <div class="catalog-block">
+                             <a href="#" class="catalog-item">
+                                 <figure class="catalog-image">
+                                     <img src="http://placehold.it/240x340" alt="SEDONA">
+                                 </figure>
+                                 <div class="catalog-item-block">
+                                     <h3 class="catalog-item-title">SEDONA</h3>
+                                     <p class="catalog-item-info">Информационный сайт для туристов</p>
+                                     <span class="btn catalog-item-btn">9 900 Р.</span>
+                                 </div>
+                             </a>
+                             <a href="#" class="catalog-item">
+                                 <figure class="catalog-image">
+                                     <img src="http://placehold.it/240x340" alt="PINKAPP">
+                                 </figure>
+                                 <div class="catalog-item-block">
+                                     <h3 class="catalog-item-title">PINK APP</h3>
+                                     <p class="catalog-item-info">Продуктивный лендинг приложения для IOS b Android</p>
+                                     <span class="btn catalog-item-btn">9 900 Р.</span>
+                                 </div>
+                             </a>
+                             <a href="#" class="catalog-item">
+                                 <figure class="catalog-image">
+                                     <img src="http://placehold.it/240x340" alt="SEDONA">
+                                 </figure>
+                                 <div class="catalog-item-block">
+                                     <h3 class="catalog-item-title">BARBERSHOP</h3>
+                                     <p class="catalog-item-info">Сайт салоны красоты.Для мужчин,да.</p>
+                                     <span class="btn catalog-item-btn">9 900 Р.</span>
+                                 </div>
+                             </a>
+                             <a href="#" class="catalog-item">
+                                 <figure class="catalog-image">
+                                     <img src="http://placehold.it/240x340" alt="SEDONA">
+                                 </figure>
+                                 <div class="catalog-item-block">
+                                     <h3 class="catalog-item-title">MISHKA</h3>
+                                     <p class="catalog-item-info">Интернет-магазин вязанных игрушек</p>
+                                     <span class="btn catalog-item-btn">9 900 Р.</span>
+                                 </div>
+                             </a>
+                             <a href="#" class="catalog-item">
+                                 <figure class="catalog-image">
+                                     <img src="http://placehold.it/240x340" alt="APLUS">
+                                 </figure>
+                                 <div class="catalog-item-block">
+                                     <h3 class="catalog-item-title">A PLUS</h3>
+                                     <p class="catalog-item-info">Лендинг курсов повышения квалификации</p>
+                                     <span class="btn catalog-item-btn">9 900 Р.</span>
+                                 </div>
+                             </a>
+                             <a href="#" class="catalog-item">
+                                 <figure class="catalog-image">
+                                     <img src="http://placehold.it/240x340" alt="КВАСТ">
+                                 </figure>
+                                 <div class="catalog-item-block">
+                                     <h3 class="catalog-item-title">КВАСТ</h3>
+                                     <p class="catalog-item-info">Промо-сайт производителей крафтового кваса</p>
+                                     <span class="btn catalog-item-btn">9 900 Р.</span>
+                                 </div>
+                             </a>
+          </div>
+</div>
 
-
-
-
-
-
-
-
-
+<!--main-pages-->
+    <div class="pagination">
+      <a class="pagination-button pagination-active" href="#">1</a>
+      <a class="pagination-button " href="#">2</a>
+      <a class="pagination-button" href="#">3</a>
+      <a class="pagination-button-following" href="#">Следующая</a>
+   </div>
 
 <!--fooret-->
 <footer class="footer-bottom">
